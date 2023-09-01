@@ -13,6 +13,7 @@
 		F2F711BE2AA192AB00A27B34 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F711BD2AA192AB00A27B34 /* ImmersiveView.swift */; };
 		F2F711C02AA192AB00A27B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F711BF2AA192AB00A27B34 /* Assets.xcassets */; };
 		F2F711C32AA192AB00A27B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F711C22AA192AB00A27B34 /* Preview Assets.xcassets */; };
+		F2F711CB2AA193D100A27B34 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F711CA2AA193D100A27B34 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F2F711BF2AA192AB00A27B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F711C22AA192AB00A27B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2F711C42AA192AB00A27B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F711CA2AA193D100A27B34 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		F2F711B42AA192AB00A27B34 /* VisionPainter */ = {
 			isa = PBXGroup;
 			children = (
+				F2F711CA2AA193D100A27B34 /* ViewModel.swift */,
 				F2F711B92AA192AB00A27B34 /* VisionPainterApp.swift */,
 				F2F711BB2AA192AB00A27B34 /* ContentView.swift */,
 				F2F711BD2AA192AB00A27B34 /* ImmersiveView.swift */,
@@ -159,6 +162,7 @@
 			files = (
 				F2F711BC2AA192AB00A27B34 /* ContentView.swift in Sources */,
 				F2F711BA2AA192AB00A27B34 /* VisionPainterApp.swift in Sources */,
+				F2F711CB2AA193D100A27B34 /* ViewModel.swift in Sources */,
 				F2F711BE2AA192AB00A27B34 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
